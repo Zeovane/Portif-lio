@@ -1,0 +1,61 @@
+:root {
+  --primary-color: #0400ff;
+  --secondary-color: #f0f0f4;
+}
+
+body {
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+/* Avatar no Header */
+.avatar {
+  background: url("https://lh3.googleusercontent.com/...") center/cover no-repeat;
+  border-radius: 9999px;
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+/* Botões */
+.btn-primary {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  justify-content: center;
+  padding: 0.75rem 1.25rem;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  font-size: 0.875rem;
+  color: #fff;
+  background-color: var(--primary-color);
+  transition: background 0.3s;
+}
+.btn-primary:hover {
+  background-color: #1d4ed8; /* azul mais escuro */
+}
+
+/* Foto principal */
+.foto-perfil {
+  background: url("../imagens/macaco.jpg") center/cover no-repeat;
+  border-radius: 9999px;
+  width: 12rem;
+  height: 12rem;
+  margin: 0 auto;
+}
+
+.btn-secondary {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  justify-content: center;
+  padding: 0.75rem 1.25rem;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  font-size: 0.875rem;
+  color: #1f2937;
+  background: #fff;
+  border: 1px solid #d1d5db;
+  transition: background 0.3s;
+}
+.btn-secondary:hover {
+  background: #f3f4f6;
+}
