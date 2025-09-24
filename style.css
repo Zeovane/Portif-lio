@@ -8,11 +8,18 @@ body {
   font-family: "Plus Jakarta Sans", sans-serif;color:aquamarine !important;
 }
 header {
-  background-color: #111827 !important;
+  background-color: #112427 !important;
   text-decoration-color: white !important;
    display: flex;
   align-items: center;
   padding: 10px 20px;
+}
+
+header h2 {
+  color: white !important;
+  margin: 0;
+  font-size: 1.5rem;
+  flex-grow: 1;
 }
 
 .logo img {
