@@ -1,12 +1,18 @@
 :root {
-  --primary-color: #0400ff;
+  --primary-color: #000000;
   --secondary-color: #f0f0f4;
 }
 
 body {
-  font-family: "Plus Jakarta Sans", sans-serif;
+ background-color:#f9fafb !important;
+  font-family: "Plus Jakarta Sans", sans-serif;color:aquamarine
 }
-
+header {
+  background-color: #111827 !important;
+}
+footer {
+  background-color:#1f2937 !important;
+}
 /* Avatar no Header */
 .avatar {
   background: url("https://lh3.googleusercontent.com/...") center/cover no-repeat;
@@ -30,7 +36,7 @@ body {
   transition: background 0.3s;
 }
 .btn-primary:hover {
-  background-color: #1d4ed8; /* azul mais escuro */
+  background-color: #3a3a3a;/* azul mais escuro */
 }
 
 /* Foto principal */
@@ -57,5 +63,5 @@ body {
   transition: background 0.3s;
 }
 .btn-secondary:hover {
-  background: #f3f4f6;
+  background: #ffffff;
 }
