@@ -9,13 +9,24 @@ body {
 }
 header {
   background-color: #111827 !important;
+  text-decoration-color: white !important;
+   display: flex;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.logo img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%; /* deixa redonda */
+  margin-right: 10px;
 }
 footer {
   background-color:#1f2937 !important;
 }
 /* Avatar no Header */
 .avatar {
-  background: url("https://lh3.googleusercontent.com/...") center/cover no-repeat;
+  background: url(imagens/logo5.png) center/cover no-repeat;
   border-radius: 9999px;
   width: 2.5rem;
   height: 2.5rem;
@@ -63,5 +74,5 @@ footer {
   transition: background 0.3s;
 }
 .btn-secondary:hover {
-  background: #ffffff;
+  background: #b3b3b3;
 }
