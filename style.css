@@ -5,7 +5,7 @@
 
 body {
  background-color:#f9fafb !important;
-  font-family: "Plus Jakarta Sans", sans-serif;color:aquamarine
+  font-family: "Plus Jakarta Sans", sans-serif;color:aquamarine !important;
 }
 header {
   background-color: #111827 !important;
